@@ -1,11 +1,11 @@
 import Foundation
 
-enum tipoDeContaEnum{
+public enum tipoDeContaEnum{
     case ContaCorrente
     case ContaPoupanca
 }
 
-class Conta {
+public class Conta {
     
     var titular: Titular
     var ID: Int

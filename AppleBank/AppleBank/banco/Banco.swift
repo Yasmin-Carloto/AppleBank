@@ -17,6 +17,7 @@ class Banco{
             titular: titular,
             ID: ID,
             senha: senha,
+            agencia: agencia,
             tipoDeConta: tipoDeConta)
         
         self.contas[ID] = conta
