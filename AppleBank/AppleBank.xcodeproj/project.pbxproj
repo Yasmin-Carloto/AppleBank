@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CEBF1DD129D7419E00598ACD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBF1DD029D7419E00598ACD /* main.swift */; };
+		CEBF1DEB29D745AF00598ACD /* Banco.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBF1DEA29D745AF00598ACD /* Banco.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		CEBF1DD029D7419E00598ACD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CEBF1DDD29D7426500598ACD /* titular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = titular.swift; sourceTree = "<group>"; };
 		CEBF1DE029D742AC00598ACD /* Conta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conta.swift; sourceTree = "<group>"; };
+		CEBF1DEA29D745AF00598ACD /* Banco.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Banco.swift; path = ../../../../../Downloads/Banco.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		CEBF1DE329D742EE00598ACD /* banco */ = {
 			isa = PBXGroup;
 			children = (
+				CEBF1DEA29D745AF00598ACD /* Banco.swift */,
 			);
 			path = banco;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEBF1DD129D7419E00598ACD /* main.swift in Sources */,
+				CEBF1DEB29D745AF00598ACD /* Banco.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
