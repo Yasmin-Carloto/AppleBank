@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE00380A29E5CF86002C4196 /* formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE00380929E5CF86002C4196 /* formatter.swift */; };
 		CE71B0B729D74A8100FE378C /* Banco.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE71B0B629D74A8100FE378C /* Banco.swift */; };
 		CEB9E84929D746AD00C5225B /* Conta.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBF1DE029D742AC00598ACD /* Conta.swift */; };
 		CEB9E84A29D746CC00C5225B /* titular.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBF1DDD29D7426500598ACD /* titular.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE00380929E5CF86002C4196 /* formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formatter.swift; sourceTree = "<group>"; };
 		CE71B0B629D74A8100FE378C /* Banco.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banco.swift; sourceTree = "<group>"; };
 		CEBF1DCD29D7419E00598ACD /* AppleBank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AppleBank; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBF1DD029D7419E00598ACD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -44,6 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE00380829E5CF58002C4196 /* formatter */ = {
+			isa = PBXGroup;
+			children = (
+				CE00380929E5CF86002C4196 /* formatter.swift */,
+			);
+			path = formatter;
+			sourceTree = "<group>";
+		};
 		CEBF1DC429D7419E00598ACD = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +73,7 @@
 		CEBF1DCF29D7419E00598ACD /* AppleBank */ = {
 			isa = PBXGroup;
 			children = (
+				CE00380829E5CF58002C4196 /* formatter */,
 				CEBF1DD029D7419E00598ACD /* main.swift */,
 				CEBF1DE329D742EE00598ACD /* banco */,
 				CEBF1DDA29D7424C00598ACD /* titular */,
@@ -153,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE00380A29E5CF86002C4196 /* formatter.swift in Sources */,
 				CEB9E84929D746AD00C5225B /* Conta.swift in Sources */,
 				CE71B0B729D74A8100FE378C /* Banco.swift in Sources */,
 				CEB9E84A29D746CC00C5225B /* titular.swift in Sources */,

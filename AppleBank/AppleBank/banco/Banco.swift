@@ -24,7 +24,6 @@ class Banco{
         
     }
     
-    
     func deletarConta(_ ID: Int) -> Bool{
         guard let contaRemovida = self.contas.removeValue(forKey: ID) else{
             return false
